@@ -62,7 +62,7 @@ vim presentation for Big Red Hacks Vim Hackshop!
     - search and replace
     - windows and tabs
     - misc
-        - ., gq, J
+        - . gq, J ctrl-A ctrl-X
 - advanced
     - vimrc + options
     - plugins
