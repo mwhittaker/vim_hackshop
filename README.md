@@ -34,5 +34,5 @@ vim presentation for Big Red Hacks Vim Hackshop!
 sudo apt-get install -y python-gtk2 python-setuptools python-distutils-extra libxtst6
 git clone https://github.com/wavexx/screenkey.git
 cd screenkey
-./screenkey --no-detach
+./screenkey --no-detach -t 1
 ```
