@@ -9,7 +9,7 @@ let editor_to_string (e: editor) =
 
 let main () : unit =
   let editors = [Vim; Emacs; Atom; Sublime] in
-  List.iteri (fun i e -> Printf.printf "%d. %s" i (editor_to_string e))
+  List.iter (fun i e -> Printf.printf "%d. %s" i (editor_to_string e))
 
 let () =
   main ()
