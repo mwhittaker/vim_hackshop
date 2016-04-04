@@ -24,8 +24,7 @@ vim presentation for Big Red Hacks Vim Hackshop!
         - Python
         - OCaml
         - x86-64
-    - fast
-        - ???
+    - fast!
 - macros
 - plugins
 - questions
