@@ -88,6 +88,7 @@ vim presentation for Big Red Hacks Vim Hackshop!
         - reversing words
     - tmux
 - questions
+- mention this repo + dotfiles
 
 ## Key Casting ##
 ```bash
