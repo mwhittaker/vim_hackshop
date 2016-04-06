@@ -4,13 +4,10 @@ vim presentation for Big Red Hacks Vim Hackshop!
 ## Outline ##
 - intro
     - who am I?
+    - keycaster
+    - spellcheck demo
+    - all experience levels welcome
     - please ask questions
-    - mention keycaster
-- what is a text editor (e.g. vim, emacs, sublime, atom, notepad), as opposed
-  to an IDE (e.g. Eclipse) or word processor (e.g. Word)?
-  - IDE is a text editor, debugger, builder, etc usually specialized for a
-    specific language.
-  - Word processor edits documents and stores more than plain text.
 - why text editors and why vim?
     - universal across machines
         - my machine
@@ -25,9 +22,6 @@ vim presentation for Big Red Hacks Vim Hackshop!
         - OCaml
         - x86-64
     - fast!
-- bookkeeping
-    - vi vs vim vs gvim
-    - my fancy vim vs normal vim `vim -u NONE`
 - the basics
     - opening a file
     - moving
@@ -43,20 +37,25 @@ vim presentation for Big Red Hacks Vim Hackshop!
     - returning to command mode
         - esc
         - ctrl-c
+    - saving
+        - :w
     - more advanced motion
         - bwe0$
+        - { }
         - gg G
         - linegg lineG :line
         - g;
         - f t F T ;
+        - number + motion
     - deleting + action motion pattern
         - x
         - dmotion, d$
-        - dd
         - dt" df"
+        - dd
+        - D
         - di" di' di( di{ diw
-    - visual mode
     - changing c
+    - visual mode
     - replacing
     - undo, redo
     - copy/pasting
@@ -64,14 +63,12 @@ vim presentation for Big Red Hacks Vim Hackshop!
     - search and replace
     - windows and tabs
     - misc
+        - bash commands: .! and visual
+        - ctrl-n
         - . gq, J ctrl-A ctrl-X
         - piping into vim
         - ctrl-xe
-        - vimium
-    - demo with spellcheck
-        - scrape lines
-        - keep last word
-        - string comma and join
+    - demo revisited
 - advanced
     - vimrc + options
     - plugins
