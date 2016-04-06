@@ -35,7 +35,9 @@ vim presentation for Big Red Hacks Vim Hackshop!
         - hjkl
     - moving multiple at a time
     - quitting
-    - trying (and failing) to insert text
+    - trying (and failing) to insert text:
+        def hello(name):
+            print "hello " + name
     - entering insert mode + writing text
         - iaoAIO
     - returning to command mode
@@ -63,10 +65,30 @@ vim presentation for Big Red Hacks Vim Hackshop!
     - windows and tabs
     - misc
         - . gq, J ctrl-A ctrl-X
+        - piping into vim
+        - ctrl-xe
+        - vimium
+    - demo with spellcheck
+        - scrape lines
+        - keep last word
+        - string comma and join
 - advanced
     - vimrc + options
     - plugins
+        - easy-motion
+        - ctrl-n
+        - supertab
+        - syntastic
+        - vim-airline
+        - tabular
+        - git-gutter
+        - nercommenter
+        - nerdtree
+        - color schemes
     - macros
+        - increment list
+        - ocaml copy paste
+        - reversing words
     - tmux
 - questions
 
