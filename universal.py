@@ -8,8 +8,8 @@ def rot13(x):
     "".join(rotateChar(c, 13) for c in x)
 
 def main():
-    cypher = rot13("ivz vf njrfbzr")
-    print cypher
+    x = rot13("ivz vf njrfbzr")
+    print x
 
 if __name__ == "__main__":
     main()
